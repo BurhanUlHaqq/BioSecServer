@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-BioVeriSysStandard" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard"/>
+        <property name="wsdl-BioVeriSysStandard" location="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard" destdir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard" wsdl="${wsdl-BioVeriSysStandard}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-BioVeriSysStandard}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-BioVeriSysStandard" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/BioVeriSysStandard"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/verification/biometric/nadra"/>
+    </target>
+    <target name="wsimport-client-BioVeriSysBranchBankAccount" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount"/>
+        <property name="wsdl-BioVeriSysBranchBankAccount" location="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount" destdir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount" wsdl="${wsdl-BioVeriSysBranchBankAccount}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-BioVeriSysBranchBankAccount}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-BioVeriSysBranchBankAccount" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/BioVeriSysBranchBankAccount"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/verification/biometric/nadra"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-BioVeriSysStandard, wsimport-client-BioVeriSysBranchBankAccount"/>
+</project>

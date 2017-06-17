@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?wsdl" uri="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.wsdl"/>
+    <system systemId="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?xsd=xsd0" uri="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.xsd_xsd0.xsd"/>
+    <system systemId="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?xsd=xsd1" uri="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.xsd_xsd1.xsd"/>
+    <system systemId="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?xsd=xsd2" uri="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.xsd_xsd2.xsd"/>
+    <system systemId="http://10.10.20.52:7082/Nadra/Services/BioVeriSysStandard?wsdl=wsdl0" uri="xml-resources/web-service-references/BioVeriSysStandard/wsdl/10.10.20.52_7082/Nadra/Services/BioVeriSysStandard.wsdl_wsdl0.wsdl"/>
+    <system systemId="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?wsdl" uri="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.wsdl"/>
+    <system systemId="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?xsd=xsd2" uri="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.xsd_xsd2.xsd"/>
+    <system systemId="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?xsd=xsd0" uri="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.xsd_xsd0.xsd"/>
+    <system systemId="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?xsd=xsd1" uri="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.xsd_xsd1.xsd"/>
+    <system systemId="http://10.10.20.52:7087/Nadra/Services/BioVeriSysBranchBankAccount?wsdl=wsdl0" uri="xml-resources/web-service-references/BioVeriSysBranchBankAccount/wsdl/10.10.20.52_7087/Nadra/Services/BioVeriSysBranchBankAccount.wsdl_wsdl0.wsdl"/>
+</catalog>
